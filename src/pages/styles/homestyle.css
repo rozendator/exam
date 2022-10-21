@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+    
+  background: #b92b27; 
+  background: -webkit-linear-gradient(to right, #b92b27, #1565c0); 
+  background: linear-gradient(to right, #b92b27, #1565c0); 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  text-align: center;
+}
+.home{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  border-radius:10px;
+  border: none;
+  background-color: rgb(241, 214, 236);
+  color: rgb(136, 122, 132);
+  border-bottom:1px solid #eee;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width:30%;
+  margin-bottom: 10px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.butn{
+  border: none;
+  border-radius: 10%;
+  color: white;
+  background-color: #1565c0;
+}
+.text{
+  color: white;
+}
